@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilosos.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <h1>CatPhotoApp</h1>  
+  <p>Versión modificada en español del primer ejercicio de la certificacion sobre <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> de freeCodeCamp.</p>
+  <hr>
+  <p>Clica sobre la foto para ver mas <a href="https://www.istockphoto.com/es/search/2/image-film?excludenudity=false&phrase=osos">fotos de ositos</a>.</p>
+  <a href="https://www.istockphoto.com/es/search/2/image-film?excludenudity=false&phrase=osos"><img src="https://img.freepik.com/fotos-premium/lindo-bebe-oso-esta-sentado-fondo-blanco-aislado_287167-1349.jpg" alt="oso" width="400px"></a>
+<table width="1700px">
+    <caption><h1>Síes y Noes de los Ositos</h1></caption>
+    <thead>
+    <tr><th colspan="3">Cosas que los osos aman:
+    </th></tr></thead>
+<tbody>
+<tr>
+    <td ><ul><li>
+        La miel
+    </li>
+<li>
+        La carne
+    </li>
+<li>
+        Frutos secos
+    </li></ul></td>
+     <td style="text-align: center;"><figure><img src="https://www.chiquipedia.com/images/gifs-disney-winnie.gif" alt=""><cite><br>LOS OSOS AMAN LA MIEL</cite></figure></td>
+      <td><figure><pre>&lt;figure&gt;<br>&lt;img src="https://www.chiquipedia.com/images/gifs-disney-winnie.gif"&gt;<br>&lt;figcaption&gt;Los osos aman la miel.&lt;/figcaption&gt;<br>&lt;/figure&gt;</pre></figure></td>
+     
+</tr>
+<thead>
+    <th colspan="3">Cosas que los osos odian:
+    </th></tr></thead>
+<tr>
+   <td> ><ol><li>
+        Los ruidos fuertes
+    </li>
+<li>
+        Los spray para osos
+    </li>
+<li>
+        Olores fuertes
+    </li></ol></td>
+    <td style="text-align: center;"><figure><img src="https://www.chiquipedia.com/images/gifs-disney-winnie-pooh.gif" alt=""><cite><br>LOS OSOS ODIAN LOS OLORES FUERTES.</cite></figure></td>
+    <td><figure><pre>&lt;figure&gt;<br>&lt;img src="https://www.chiquipedia.com/images/gifs-disney-winnie-pooh.gif"&gt;<br>&lt;figcaption&gt;Los osos odian los olores fuertes.&lt;/figcaption&gt;<br>&lt;/figure&gt;</pre></figure></td>
+</tr>
+</tbody>
+    
+  </table>
+  <h1>Encuesta sobre tu Oso</h1>
+  <details><summary class="colorsummary" >ver código</summary>
+<p style="
+color: white;">&lt;fieldset&gt;&lt;--Este es el borde que rodea las preguntas--&gt;<br>
+    &lt;legend&gt;¿Te gustan los osos?&lt;/legend&gt;<br>
+    &lt;label&gt;&lt;input id="Sí" type="radio" name="Si" value="1" checked&gt;Si me gustan&lt;/label&gt;<br>
+    &lt;label&gt;&lt;input id="No" type="radio" name="No" value="2"&gt;No me gustan&lt;/label&gt;<br>
+    &lt;/fieldset&gt;
+</p>
+
+</details>
+<form >
+<fieldset>
+    <legend>¿Te gustan los osos?</legend>
+    <label><input id="Si" type="radio" name="gustos" value="1" Checked> Sí me gustan</label>
+<label><input id="No" type="radio" name="gustos" value="2" > No me gustan</label>
+</fieldset>
+<fieldset>
+    <legend>¿Qué le darias de comer a un bebe oso?</legend>
+    <label><input id="Si" type="checkbox" name="gustos" value="1" Checked> Miel</label>
+<label><input id="No" type="checkbox" name="gustos" value="2" > Carne</label>
+<label><input id="No" type="checkbox" name="gustos" value="2" > Frutos secos</label>
+
+</fieldset>
+<fieldset>
+    <label >Sube una foto de tu oso preferido...</label>
+   
+   <input id="archivo" type="file">
+
+</fieldset>
+<input type="submit">
+</form>
+<hr>
+
+<footer>No Copyright - <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a></footer>
+  
+</body>
+</html>
